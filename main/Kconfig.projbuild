@@ -1,0 +1,26 @@
+menu "Soundboard config"
+
+config MQTT_SERVER
+    string "MQTT Server"
+    default "mqtt://"
+
+
+config MQTT_TOPIC
+    string "MQTT Server"
+    default "soundboard/state"
+
+config MQTT_LOGIN
+    string "MQTT Login"
+    default "public"
+
+config MQTT_PASSWORD
+    string "MQTT Password"
+    default "public"
+
+config WIFI_SSID
+    string "WIFI SSID"
+
+config WIFI_PASSWORD
+    string "WIFI Password"
+
+endmenu
