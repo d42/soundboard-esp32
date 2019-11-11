@@ -26,9 +26,9 @@ static const char *TAG = "main";
 static esp_mqtt_client_handle_t mqtt_client;
 
 static int PINS[] = {
-   22, 32,  25, 14,
-   4,  19,  27, 12,
-   15, 33,  26, 13,
+    13, 26, 33, 15,
+    12, 27, 19, 4,
+    14, 25, 32, 22,
 };
 
 
